@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added to ensure padding and border are included in element's total width and height */
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.first-section {
+    background-color: #1f2937;
+    padding: 20px; /* Added padding to create space inside the first section */
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar, .hero-section {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-left, .navbar-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+ul:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 10px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between; /* Ensures space between content-left and content-right */
+    padding: 20px; /* Added padding for spacing */
+}
+
+.content-left, .content-right {
+    width: 50%;
+    display: flex;
+    justify-content: center; /* Centers content inside each flex item */
+    align-items: center; /* Aligns content vertically center */
+    padding: 10px; /* Optional padding for inner spacing */
+}
+
+.content-left {
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the start of the flex container */
+}
+
+.content-left {
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%; /* Ensures the image doesn't overflow the container */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.sign-up-first-section {
+    padding: 5px 15px;
+    font-size: 16px;
+    color: #f9f9f9;
+    background-color: #3882f6;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.sign-up-first-section:hover {
+    background-color: #f9faf8;
+    color: blue;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #3882f6;;
+    border-radius: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.second-section {
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+}
+
+
+.bottom {
+    background-color: #e5e7eb;
+}
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.self-item {
+    justify-content: flex-end;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 700;
+}
+
+.last-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-section-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    background-color: #3882f6;
+    color: #1f2937;
+    height: 90px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-size: 20px;
+    color: #e5e7eb;
+    margin-bottom: 2px;
+}
+.cta-text {
+    color: #d6d8db;
+}
+
+.sign-up-last-section {
+    width: 100px;
+    height: 30px;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sign-up-last-section:hover { 
+    background-color: blue;
+    color: #f9faf8;
+}
+
+footer {
+    background-color: #1f2937;
+    height: 60px;
+    color: #d6d8db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
